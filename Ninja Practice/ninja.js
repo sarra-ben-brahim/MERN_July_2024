@@ -11,9 +11,9 @@ class Ninja {
     }
 
     showStats() {
-        console.log(`Health: ${this.health});
-        console.log(`Speed: ${this.speed});
-        console.log(`Strength: ${this.strength});
+        console.log(`Health: ${this.health}`);
+        console.log(`Speed: ${this.speed}`);
+        console.log(`Strength: ${this.strength}`);
     }
 
     drinkSake(){
