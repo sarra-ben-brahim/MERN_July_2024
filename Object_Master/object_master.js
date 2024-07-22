@@ -49,7 +49,7 @@ console.log(filterPokémon);
 const poisonType = pokémon.filter( p => (p.types.length == 1 ) && (p.types.includes("poison"))).map(p => p.name);
 console.log(poisonType);
 
-const pkmnFlying = pokémon.filter(p => p.types.some(type => type === "flying")).map(p => p.types[0]);
+const pkmnFlying = pokémon.filter(p => p.types[1] === "flying").map(p => p.types[0]);
 console.log(pkmnFlying);
 
 const number = pokémon.filter(p => p.types == "normal").length;
