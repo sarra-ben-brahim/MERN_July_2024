@@ -1,0 +1,9 @@
+https://pokeapi.co/api/v2/egg-group/1
+
+https://pokeapi.co/api/v2/growth-rate/slow
+
+https://pokeapi.co/api/v2/pokemon/5
+
+https://pokeapi.co/api/v2/pokemon-color/yellow
+
+https://pokeapi.co/api/v2/pokemon-habitat/cave
