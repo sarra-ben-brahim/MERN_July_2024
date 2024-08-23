@@ -23,15 +23,7 @@ const Create = () => {
                 navigate("/")
             })
             .catch(err => {
-                console.log("❌❌❌❌", err.response.data.errors.title.message)
-                const errorResponse = err.response.data.errors; // Get the errors from err.response.data
-                const errorArr = []; // Define a temp error array to push the messages in
-                for (const key of Object.keys(errorResponse)) { // Loop through all errors and get the messages
-                    errorArr.push(errorResponse[key].message)
-                }
-                // Set Errors
-                setErrors(errorArr);
-            })
+                console.log(err)
 
     }
 
